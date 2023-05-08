@@ -20,8 +20,6 @@ defaults:
     values:
       layout: "default"
 
-gem 'jekyll-paginate'
-
 plugins:
   - jekyll-feed
   - jekyll-sitemap
