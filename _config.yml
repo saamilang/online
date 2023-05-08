@@ -22,6 +22,9 @@ defaults:
 
 baseurl: /online
 
+gems:
+  - jekyll-paginate-v2
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
