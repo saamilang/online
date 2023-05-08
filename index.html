@@ -23,10 +23,10 @@ pagination:
         </div>
       </div>
       <div class="col">
-      <h3><a href="{{ post.url }}" style="color: #282828;">{{ post.title }}</a></h3>
+      <h3><a href="{{ post.url | relative_url }}" style="color: #282828;">{{ post.title }}</a></h3>
 
       <div class="d-block d-md-none" style="margin-top: 2em; margin-bottom: 1.2em;">
-        <a href="{{ post.url | remove_first: '/'}}">
+        <a href="{{ post.url | relative_url }}">
           <img src={{ post.ava }} width="100%">
         </a>
       </div>
@@ -46,10 +46,10 @@ pagination:
 
     <div class="row">
       <div class="col">
-        <h3><a href="{{ post.url }}" style="color: #282828;">{{ post.title }}</a></h3>
+        <h3><a href="{{ post.url | relative_url }}" style="color: #282828;">{{ post.title }}</a></h3>
 
       <div class="d-block d-md-none" style="margin-top: 2em; margin-bottom: 1.2em;">
-        <a href="{{ post.url }}">
+        <a href="{{ post.url | relative_url }}">
           <img src={{ post.ava }} width="100%">
         </a>
       </div>
