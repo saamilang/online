@@ -20,6 +20,8 @@ defaults:
     values:
       layout: "default"
 
+baseurl: "/online"
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
