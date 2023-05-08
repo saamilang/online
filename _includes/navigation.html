@@ -9,7 +9,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
          <ul class="navbar-nav mr-auto">
-      {% assign titles = "О нас~/, Публикации и доклады~/publications, Материалы~/materials, Ресурсы~/resources, Благодарности~/acknowledgments, " | split: ", " %}
+      {% assign titles = "О нас~/online, Публикации и доклады~/online/publications, Материалы~/online/materials, Ресурсы~/online/resources, Благодарности~/online/acknowledgments, " | split: ", " %}
 			{% for title in titles %}
       {% assign tit = title | split: "~" %}
       {% if page.title == tit[0] %}
