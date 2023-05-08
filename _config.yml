@@ -20,9 +20,7 @@ defaults:
     values:
       layout: "default"
 
-gems:
-  - jekyll-paginate
-  - jekyll-paginate-multiple
+gem 'jekyll-paginate'
 
 plugins:
   - jekyll-feed
@@ -32,6 +30,5 @@ plugins:
   - jekyll-redirect-from
 
 
-paginate:
-  - paginate: 5
-    paginate_path: '/online/main/page:num/'
+paginate: 5
+paginate_path: '/online/main/page:num/'
