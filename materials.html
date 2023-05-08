@@ -1,0 +1,61 @@
+---
+layout: default
+title: Материалы
+---
+<style type="text/css">
+	li {
+		margin-bottom: 8px;
+	}
+</style>
+    <!-- Begin page content -->
+    <main role="main" class="container" style="text-align: left;">
+      <h1 class="mt-5">Материалы</h1>
+
+      <div class="lead">
+        <p>
+          <div>
+	    <ul class="mobile-bullets" style='list-style: none; margin-left: -40px'>
+		<li><i class="fa fa-upload" aria-hidden="true"></i> <a href="../static/files/glosses.pdf" target="_blank">Список глосс, которые присутствуют в текстах.</a></li>
+	        <!-- <li><i class="fa fa-upload" aria-hidden="true"></i> <a href="../static/files/eve_glosses_draft_20211202.pdf" download="">Избранная библиография по тунгусо-манчьжурским языкам</a></li> -->
+	    </ul>
+          </div>
+	</p>
+      </div>
+
+	  <h3 class="mt-5">Тексты</h3>
+
+	  <div class="lead" style="font-size: 1.1em;text-align: left;margin-top: 2.5em;">
+		<table class="table table-striped">
+		  <thead>
+			<tr>
+			  <th scope="col">Текст</th>
+			  <th scope="col" style="width: 5em;">Год</th>
+			  <th scope="col" style="width: 10em;text-align: center;">Оригинал</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<tr>
+			  <td>
+				<div style="position: relative;">
+				  <a href="../assests/annotated/annotation.wav" download style="text-decoration: none;color: black;"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a> <a href="../assests/annotated/annotation.wav" target="_blank" title="Открыть в новой вкладке"><b>НАЗВАНИЕ</b></a>
+				  <div class="seemore" style="display: block;width: max-content;">
+					<a href="#" id="ID_show" name="ID" onclick="event.preventDefault();show(this);" style="text-decoration: none;color: inherit;">
+					  <div style="font-size: large;margin-bottom: -8px;">&#xfe40;</div>
+					</a>
+					<a href="#" id="ID_hide" name="ID" onclick="event.preventDefault();hide(this);" style="text-decoration: none;color: inherit;display: none;">
+					  <div style="font-size: large;margin-bottom: -8px;">&#xfe3f;</div>
+					</a>
+				  </div>
+				  <div id="ID" style="display: none;margin-left: 1%;">
+					ОПИСАНИЕ
+				  </div>
+				</div>
+			  </td>
+			  <td>ГОД</td>
+			  <td style="text-align: center;"><a href="../assests/audio/audio.wav" download style="text-decoration: none;color: black;" title="Скачать"><i class="fa fa-file-audio-o" aria-hidden="true"></i></a></td>
+			</tr>
+		  </tbody>
+		</table>
+		</div>
+	    
+    </main>
