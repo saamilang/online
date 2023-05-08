@@ -20,7 +20,7 @@ defaults:
     values:
       layout: "default"
 
-plugins:
+gems:
   - jekyll-paginate
   - jekyll-paginate-multiple
 
@@ -34,5 +34,4 @@ plugins:
 
 paginate_multiple:
   - paginate: 5
-    paginate_path: '/main/page:num/'
-    sub_dir: '/'
+    paginate_path: '/online/main/page:num/'
