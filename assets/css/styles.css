@@ -252,3 +252,12 @@ h1, h2, h3, h4, h5, h6, .preview {
     margin-top: 0;
   }
 }
+
+main {
+  margin-top: 7em;
+}
+
+
+#citationbtn:hover {
+  color: rgb(83, 24, 36) !important;
+}

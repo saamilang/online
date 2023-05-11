@@ -15,8 +15,10 @@ title: Материалы
         <p>
           <div>
 	    <ul class="mobile-bullets" style='list-style: none; margin-left: -40px'>
-		<li><i class="fa fa-upload" aria-hidden="true"></i> <a href="../static/files/glosses.pdf" target="_blank">Список глосс, которые присутствуют в текстах.</a></li>
-	        <!-- <li><i class="fa fa-upload" aria-hidden="true"></i> <a href="../static/files/eve_glosses_draft_20211202.pdf" download="">Избранная библиография по тунгусо-манчьжурским языкам</a></li> -->
+			{% for material in site.data.materials.materials %}
+				<li><i class="fa fa-upload" aria-hidden="true"></i> <a href="{{ material.link | relative_url }}" target="_blank">{{ material.name }}</a></li>
+			{% endfor %}
+		
 	    </ul>
           </div>
 	</p>
@@ -34,26 +36,33 @@ title: Материалы
 			</tr>
 		  </thead>
 		  <tbody>
+			{% for text in site.data.materials.texts %}
 			<tr>
 			  <td>
 				<div style="position: relative;">
-				  <a href="../assests/annotated/annotation.wav" download style="text-decoration: none;color: black;"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a> <a href="../assests/annotated/annotation.wav" target="_blank" title="Открыть в новой вкладке"><b>НАЗВАНИЕ</b></a>
-				  <div class="seemore" style="display: block;width: max-content;">
-					<a href="#" id="ID_show" name="ID" onclick="event.preventDefault();show(this);" style="text-decoration: none;color: inherit;">
-					  <div style="font-size: large;margin-bottom: -8px;">&#xfe40;</div>
+					<a href="{{ text.source | relative_url }}" download style="text-decoration: none;color: black;"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a> <a href="{{ text.source | relative_url }}" target="_blank" title="Открыть в новой вкладке"><b>{{ text.name }}</b></a>
+					<div class="seemore" style="display: block;width: max-content;">
+					<a href="#" id="ID_{{forloop.index}}_show" name="ID_{{forloop.index}}" onclick="event.preventDefault();show(this);" style="text-decoration: none;color: inherit;">
+					  <div style="font-size: large;margin-bottom: 0.25em;margin-top: 0.5em;">&#xfe40;</div>
 					</a>
-					<a href="#" id="ID_hide" name="ID" onclick="event.preventDefault();hide(this);" style="text-decoration: none;color: inherit;display: none;">
-					  <div style="font-size: large;margin-bottom: -8px;">&#xfe3f;</div>
+					<a href="#" id="ID_{{forloop.index}}_hide" name="ID_{{forloop.index}}" onclick="event.preventDefault();hide(this);" style="text-decoration: none;color: inherit;display: none;">
+					  <div style="font-size: large;margin-bottom: 0.25em;margin-top: 0.5em;">&#xfe3f;</div>
 					</a>
 				  </div>
-				  <div id="ID" style="display: none;margin-left: 1%;">
-					ОПИСАНИЕ
+				  <div id="ID_{{forloop.index}}" style="display: none;margin-left: 1%;">
+					{{ text.description }}
 				  </div>
 				</div>
 			  </td>
-			  <td>ГОД</td>
-			  <td style="text-align: center;"><a href="../assests/audio/audio.wav" download style="text-decoration: none;color: black;" title="Скачать"><i class="fa fa-file-audio-o" aria-hidden="true"></i></a></td>
+			  <td>{{ text.year }}</td>
+			  {% if text.original %}
+			  	<td style="text-align: center;"><a href="{{ text.original | relative_url }}" download style="text-decoration: none;color: black;" title="Скачать"><i class="fa fa-file-audio-o" aria-hidden="true"></i></a></td>
+			  {% else %}
+			  	<td style="text-align: center;">&mdash;</i></a></td>
+			  {% endif %}
+			  
 			</tr>
+			{% endfor %}
 		  </tbody>
 		</table>
 		</div>

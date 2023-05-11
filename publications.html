@@ -8,13 +8,16 @@ title: Публикации и доклады
 	
       <div class="lead">
 	<h1 class="mt-5">Статьи</h1>
+  {% for paper in site.data.publications.papers %}
     <div class="article" style="margin-top: 2em;">
-      АВТОР <a href="ССЫЛКА" target="_blank" title="Открыть в новой вкладке">НАЗВАНИЕ СТАТЬИ</a> // библиография.
+      {{paper.author}} <a href="{{ paper.link | relative_url }}" target="_blank" title="Открыть в новой вкладке">{{paper.name}}</a> // {{ paper.other }}.
     </div>
-
+  {% endfor %}
 	<h1 class="mt-5">Доклады</h1>
+  {% for paper in site.data.publications.talks %}
     <div class="article" style="margin-top: 2em;">
-      АВТОР <a href="ССЫЛКА" target="_blank" title="Открыть в новой вкладке">НАЗВАНИЕ СТАТЬИ</a> // библиография.
+      {{paper.author}} <a href="{{ paper.link | relative_url }}" target="_blank" title="Открыть в новой вкладке">{{paper.name}}</a> // {{ paper.other }}.
     </div>
+  {% endfor %}
 
 </main>

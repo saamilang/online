@@ -11,37 +11,20 @@
 	<!-- font awesome icons -->
 	<script src="https://use.fontawesome.com/f6691ea328.js"></script>  
 	  
-    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/">
-	  
+  <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/">
 	<link rel="icon" href="/online/assets/img/icon.png">
 
     <!-- Bootstrap core CSS -->
-    <link href="/online/bootstrap/bootstrap.min.css" rel="stylesheet">
-	<link href="/online/bootstrap/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <link href="/online/bootstrap/sticky-footer-navbar.css" rel="stylesheet">
-    <link href="/online/bootstrap/carousel.css" rel="stylesheet">
-    <link href="/online/assets/css/styles.css" rel="stylesheet">
-    <style type="text/css">
-  </style>
+    <link href="{{'/assets/css/styles.css' | relative_url }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{'/assets/css/footer.css' | relative_url }}">
+
   </head>
   <body>
   	{% include navigation.html %}
       {{ content }}
-    
-        <!-- Bootstrap core JavaScript
-    ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
-  <script src="{{'bootstrap/jquery-3.2.1.slim.min.js' | relative_url}}"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write(<script src="{{'/bootstrap/jquery-slim.min.js' | relative_url}}"></script></script>
-  <script src="{{'bootstrap/popper.min.js' | relative_url}}"></script>
-  <script src="{{'bootstrap/bootstrap.min.js' | relative_url}}"></script>
-  <script src="{{'bootstrap/bootstrap.js' | relative_url}}"></script>
-  <script src="/online/assets/js/show.js"></script>
 
   
 <div id="modalcitation" class="modal" style="background-color: rgb(0, 0, 0, 0.5);">
@@ -49,7 +32,7 @@
   <!-- Modal content -->
   <div class="modal-content" style="position: absolute;top: 30%;left: 50%;z-index:2;transform: translate(-50%, 0);width: max(50%, 300px); text-align: left;color: black;">
     <div class="container-fluid" style="margin: auto;padding: 1em;">
-      Бузанов А.О., Рачинская С. А. Сайт экспедиции по документации саамских языков России, 2023.</a>
+      А. Бузанов и др. Сайт экспедиции по документации саамских языков России, 2023.</a>
     </div>
   </div>
 
@@ -92,17 +75,18 @@
       </div>
   </div>
       <div style="text-align: center;padding-bottom: 1em;margin-top: -0.5em;font-size: 0.8em;color: white;">
-        Copyright © 2021-2022. Эвенская экспедиция. All Rights Reserved
+        Copyright © 2023. Саамская экспедиция. All Rights Reserved
       </div>
   </div>
 
 </footer>
 
+<script src="{{'/assets/js/app.js' | relative_url }}"></script>
+<script src="{{'/assets/js/modal.js' | relative_url }}"></script>
+<script src="{{'/assets/js/show.js' | relative_url }}"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<link rel="stylesheet" href="/online/assets/css/styles.css">
-<link rel="stylesheet" href="/online/assets/css/footer.css">
-<!-- <link rel="stylesheet" media="all" href="/online/assets/css/jquery.fancybox.min.css"/> -->
-<script src="/online/assets/js/app.js"></script>
-<script src="/online/assets/js/modal.js"></script>
 </body>
 </html>

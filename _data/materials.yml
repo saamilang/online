@@ -1,0 +1,22 @@
+materials:
+  - name: Список глосс, которые присутствуют в текстах.
+    link: /assets/files/glosses.pdf
+
+texts:
+  - name: Дьявольские истории
+    description: "Источник: Itkonen, T. I., & Europaeus, D. E. D. (1931). Koltan-ja kuolanlappalaisia satuja (Vol. 60). Suomalais-ugrilainen seura, с.254-255"
+    year: 1931
+    source: /assets/files/kld_txt_Itkonen1931_6_page254.pdf
+    origignal: false
+
+  - name: Сушка шкур, койб и рогов
+    description: "Источник: Г.М.Керт “Образцы саамской речи” 1961, c.38-39"
+    year: 1961
+    source: /assets/files/kld_txt_Kert1961_suška škur.pdf
+    origignal: false
+    
+  - name: Сказка о диком олене
+    description: "Источник: Lehtiranta (1985). Kildinlappische Sprachproben, с.14-15"
+    year: 1985
+    source: /assets/files/kld_txt_Lehtiranta_3_kɒn’t’_moajnas.pdf
+    origignal: false

@@ -2,14 +2,16 @@
       <!-- Fixed navbar -->
       <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-dark">
         <a href="/" class="berry">
-          <img src="/online/assets/img/logo.png" width="60%">
+          <img src="{{'/assets/img/logo.png' | relative_url }}" width="60%">
         </a>
-    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+            data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+            aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
          <ul class="navbar-nav mr-auto">
-      {% assign titles = "О нас~/online, Публикации и доклады~/online/publications, Материалы~/online/materials, Ресурсы~/online/resources, Благодарности~/online/acknowledgments, " | split: ", " %}
+      {% assign titles = "О нас~/, Публикации и доклады~/publications, Материалы~/materials, Ресурсы~/resources, Благодарности~/acknowledgments, " | split: ", " %}
 			{% for title in titles %}
       {% assign tit = title | split: "~" %}
       {% if page.title == tit[0] %}
@@ -18,7 +20,7 @@
             </li>
       {% else %}
       <li class="nav-item">
-              <a class="nav-link" href={{ tit[1] }}>{{ tit[0] }}</a>
+              <a class="nav-link" href={{ tit[1] | relative_url }}>{{ tit[0] }}</a>
             </li>
       {% endif %}
       {% endfor %}
