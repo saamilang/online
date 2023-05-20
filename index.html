@@ -29,7 +29,7 @@ pagination:
     <div class="row">
       <div class="col-lg-2 col-md-3 d-none d-md-block">
         <div class="image-cropper" id="right">
-          <img src="{{ post.tag | relative_url }}" class="profile-pic">
+          <img src="{{ post.logo | relative_url }}" class="profile-pic">
         </div>
       </div>
       <div class="col">
@@ -37,7 +37,7 @@ pagination:
 
       <div class="d-block d-md-none" style="margin-top: 2em; margin-bottom: 1.2em;">
         <a href="{{ post.url | relative_url }}">
-          <img src="{{ post.tag | relative_url}}" width="100%">
+          <img src="{{ post.logo | relative_url}}" width="100%">
         </a>
       </div>
 
@@ -60,7 +60,7 @@ pagination:
 
       <div class="d-block d-md-none" style="margin-top: 2em; margin-bottom: 1.2em;">
         <a href="{{ post.url | relative_url }}">
-          <img src="{{ post.tag | relative_url}}" width="100%">
+          <img src="{{ post.logo | relative_url}}" width="100%">
         </a>
       </div>
 
@@ -74,7 +74,7 @@ pagination:
       </div>
       <div class="col-lg-2 col-md-3 d-none d-md-block">
         <div class="image-cropper" id="left">
-          <img src="{{ post.tag | relative_url}}" class="profile-pic">
+          <img src="{{ post.logo | relative_url}}" class="profile-pic">
         </div>
       </div>
     </div>
