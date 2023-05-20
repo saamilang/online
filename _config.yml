@@ -30,14 +30,14 @@ plugins:
   - jekyll-paginate
   - jekyll-redirect-from
 
-# paginate: 5
-# paginate_path: /main/page:num/
+paginate: 5
+paginate_path: /page:num/
 
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: '/main/page:num/'
-  title: ':title - page :num of :max'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
+# pagination:
+#   enabled: true
+#   per_page: 5
+#   permalink: '/main/page:num/'
+#   title: ':title - page :num of :max'
+#   limit: 0
+#   sort_field: 'date'
+#   sort_reverse: true
