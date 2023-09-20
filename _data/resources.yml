@@ -1,11 +1,17 @@
-- name: The Álgu database. Sámegielaid etymologaš diehtovuođđu = The Etymological Database of the Saami Languages [online database]
-  link: https://kaino.kotus.fi/algu/index.php?t=haku&l=1&kkieli=en
-
-- name: КарНЦ. Памяти Г. М. Керта
-  link: https://illh.ru/kert/
+- name: Са̄мь-рӯшш я Рӯшш-са̄мь са̄ннҍнэххьк
+  link: https://sanj.oahpa.no/
 
 - name: Саамские словари
   link: https://slovari.saami.su/
+  
+- name: The Álgu database. Sámegielaid etymologaš diehtovuođđu = The Etymological Database of the Saami Languages [online database]
+  link: https://kaino.kotus.fi/algu/index.php?t=haku&l=1&kkieli=en
 
-- name: Эстонский архив саамских текстов
+- name: The Archive of Estonian Dialects and Finno-Ugric Languages (EMSUKA) of the Institute of the Estonian Language
   link: http://emsuka.eki.ee/sound-collection?filterSeries%5B%5D=24&filterSeries%5B%5D=20&filterArchiveNumber=&filterContent=&filterParish=&submit=Search&filterCountry=&filterAdministrativeUnit=&filterVillage=&filterPlace=&filterRecordingDate=&filterLanguage=24&filterRelatedPersonName=&filterRole=&filterResourceType=&isPhysicallyPresent=0&isDigitallyPresent=0&isForeignRecording=0
+
+- name: Коллекция "Кольские саамы" в электронной библиотеке "Кольский Север"
+  link: http://kolanord.ru/index.php/kola-sami
+  
+- name: Страница памяти Г. М. Керта на сайте Карельского Научного Центра РАН
+  link: https://illh.ru/kert/
