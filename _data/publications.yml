@@ -4,8 +4,84 @@ papers:
     link: TBD
     other: TBD
 
-talks:
+talks: 
+  - author: Liza Goroshnikova, Nikita Chestnov
+    name: Kildin Sámi Teaching Practices in Lovozero, Murmansk Region
+    link: https://github.com/saamilang/online/blob/main/assets/files/kld_LG%2CNC_Kildin%20Sami%20Teaching_2023.pdf
+    other: Саамские языки России в синхронии и диахронии, 11-12 мая 2023
   - author: Valeriya Lelik
     name: Abessive in Kildin Saami
-    link: https://docs.google.com/presentation/d/1bNAQe5qnKZx5PklrsY6lBzFliROzI6Nm/edit?usp=sharing&ouid=114852936343967860436&rtpof=true&sd=true
-    other: Саамские языки России в синхронии и диахронии, Институт народов Севера РГПУ им. А. И. Герцена, 11-12 мая 2023 г.
+    link: https://github.com/saamilang/online/blob/main/assets/files/kld_VL_X_Abessive%20in%20Kildin%20Saami_DDMM2020pptx.pdf
+    other: Саамские языки России в синхронии и диахронии, 11-12 мая 2023
+  - author: Софья Рачинская
+    name: Инхоативные конструкции кильдинского саамского языка
+    link: https://github.com/saamilang/online/blob/main/assets/files/kld_SR_kildin%20saami%20inchoative_2023.pdf
+    other: Саамские языки России в синхронии и диахронии, 11-12 мая 2023
+  - author: Василий Молчанов, Антон Бузанов, Илья Егоров
+    name: Дифтонги в кильдинском саамском
+    link: https://github.com/saamilang/online/blob/main/assets/files/kld_AB%2CVM%2CIE_Diphthongs.pdf
+    other: Саамские языки России в синхронии и диахронии, 11-12 мая 2023
+  - author: Елизавета Горошникова
+    name: Словоизменительные классы прилагательных кильдинского саамского языка
+    link: https://github.com/saamilang/online/blob/main/assets/files/kld_LG_adjectives_2023.pdf
+    other: Саамские языки России в синхронии и диахронии, 11-12 мая 2023
+  - author: Даниил Буров
+    name: Периферийные зависимые имени в кильдинском саамском языке
+    link: https://github.com/saamilang/online/blob/main/assets/files/kld_BD_peripheral_adnominsl_modifyers_20230512.pdf
+    other: Саамские языки России в синхронии и диахронии, 11-12 мая 2023
+  - author: Илья Егоров
+    name: Морфологическая вариативностьв кильдинском саамском
+    link: https://github.com/saamilang/online/blob/main/assets/files/kld_IE_Morphological_variation_2023.pdf
+    other: Саамские языки России в синхронии и диахронии, 11-12 мая 2023
+  - author: Alexander Sergienko
+    name: Indefinite pronouns in Kildin Saami: too much variation?
+    link: https://github.com/saamilang/online/blob/main/assets/files/kld_AS_indefinite_20230428.pdf
+    other: Малые языки в большой лингвистике, 28-29 апреля 2023
+  - author: Мария Кошелева, Софья Рачинская при участии Ильи Егорова
+    name: На подступах к акциональной классификации в кильдинском саамском
+    link: https://github.com/saamilang/online/blob/main/assets/files/kld_MK%2CSR_actionality_20230428.pdf
+    other: Малые языки в большой лингвистике, 28-29 апреля 2023
+  - author: Всеволод Поцелуев
+    name: Отрицание в кильдинском саамском: согласование
+    link: https://github.com/saamilang/online/blob/main/assets/files/kld_VP_negation_talk_2022.pdf
+    other: XIX конференция по типологии и грамматике для молодых исследователей, 24–26 ноября 2022
+  - author: Илья Егоров
+    name: Глухие латералы в уральских языках: синхронная и диахроническая типология
+    link: https://github.com/saamilang/online/blob/main/assets/files/kld_IE_Voiceless%20laterals%20in%20Uralic_2022.pdf
+    other: Третья конференция по уральским, алтайским и палеоазиатским языкам, 21–23 ноября 2022
+  - author: Даниил Буров
+    name: Нефинитная глагольная форма на -em в кильдинском саамском: причастие или отглагольное существительное
+    link: https://github.com/saamilang/online/blob/main/assets/files/kld_BD_em-nominalization_23112022.pdf
+    other: Третья конференция по уральским, алтайским и палеоазиатским языкам, 21–23 ноября 2022
+  - author: Sofya Rachinskaya, Pavel Zavyalov, and Maria Kosheleva
+    name: Kildin Saami inchoative constructions and their polysemy
+    link: https://github.com/saamilang/online/blob/main/assets/files/kld_PZ%2CMK%2CSR_futur_2023.pdf
+    other: The 5th Saami Linguistics Symposium, 22-23 September 2022
+  - author: Ilya Egorov
+    name: Dialectal variation in Kildin Saami
+    link: https://github.com/saamilang/online/blob/main/assets/files/kld_IE_Dialectal_variation_in_Kildin%20Saami_2022.pdf
+    other: The 5th Saami Linguistics Symposium, 22-23 September 2022
+  - author: Daniil Burov
+    name: Discontinuity in Kildin Saami postpositional phrases
+    link: https://github.com/saamilang/online/blob/main/assets/files/kld_BD_Discontinuity_in_postpositional_phrases_16062022.pdf
+    other: Syntax of Uralic Languages 4, 14-16 June 2022
+  - author: Павел Завьялов, Мария Кошелева
+    name: К футуральной семантической зоне в кильдинском саамском языке
+    link: https://github.com/saamilang/online/blob/main/assets/files/kld_PZ%2CMK%2CSR_futur_2023.pdf
+    other: Малые языки в большой лингвистике, 22-23 апреля 2022 года
+  - author: Александр Сергиенко, Илья Егоров
+    name: Кильдинский саамский генитив в иерархии падежей: наносинтаксический анализ
+    link: https://github.com/saamilang/online/blob/main/assets/files/kld_AS%2CIE_nano_2022.pdf
+    other: Малые языки в большой лингвистике, 22-23 апреля 2022 года
+  - author: Софья Рачинская
+    name: Инхоативные конструкции кильдинского саамского языка
+    link: https://github.com/saamilang/online/blob/main/assets/files/kld_SR_kildin%20saami%20inchoative_2023.pdf
+    other: Малые языки в большой лингвистике, 22-23 апреля 2022 года
+  - author: Никита Честнов
+    name: Динамика языковой ситуации в сообществе российских саамов
+    link: https://github.com/saamilang/online/blob/main/assets/files/kld_NC_Language_situation_DD032021.pdf
+    other: Проблема языка-взгляд молодых ученых, 25-27 марта 2021
+  - author: Василиса Извольская
+    name: Императивные конструкции в кильдинском саамском языке в типологическом освещении
+    link: https://github.com/saamilang/online/blob/main/assets/files/kld_VI_Imperative_21112020.pdf
+    other: Семнадцатая Конференция по типологии и грамматике для молодых исследователей, 19-21 ноября 2020
