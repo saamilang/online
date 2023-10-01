@@ -1,7 +1,13 @@
 materials:
   - name: Список глосс, которые присутствуют в текстах.
     link: /assets/files/glosses.pdf
-
+    
+  - name: 110-word Swadesh list for Kildin Saami
+    link: /assets/files/Kildin Saami Swadesh.pdf
+    
+  - name: 110-word Swadesh list for Ter Saami
+    link: /assets/files/Ter Saami Swadesh.pdf
+    
 texts:
   - name: Дьявольские истории
     description: "Источник: Itkonen, T. I., & Europaeus, D. E. D. (1931). Koltan-ja kuolanlappalaisia satuja (Vol. 60). Suomalais-ugrilainen seura, с.254-255"
