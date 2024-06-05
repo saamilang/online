@@ -26,3 +26,45 @@ texts:
     year: 1985
     source: /assets/files/kld_txt_Lehtiranta_3_kɒn’t’_moajnas.pdf
     origignal: false
+  
+  - name: Сказка про старика и старуху
+    description: NA
+    year: NA
+    source: /assets/files/kld_txt_Genetz1891.pdf
+    origignal: false
+
+  - name: Братья
+    description: "Г.М.Керт “Образцы саамской речи” 1961, c.162-165"
+    year: 1961
+    source: /assets/files/kld_txt_Kert1961_bratiški.pdf
+    origignal: false
+
+  - name: Про древних людей
+    description: NA
+    year: NA
+    source: /assets/files/kld_txt_Kert1961_jeerrkja_oollmej_bajas.docx.pdf
+    origignal: false
+
+  - name: Г.М.Керт “Образцы саамской речи”, 1961 с.158-162
+    description: Г.М.Керт “Образцы саамской речи”, 1961 с.158-162
+    year: 1961
+    source: /assets/files/kld_txt_Kert1961_pro_vorona_tulena_i_dikogo_olena.pdf
+    origignal: false
+
+  - name: О девушке и морозе
+    description: Szabo 1968
+    year: 1968
+    source: /assets/files/kld_txt_Szabo1968_o devochke i moroze.pdf
+    origignal: false
+    
+  - name: Две умные женщины
+    description: Архив КарНЦ
+    year: NA
+    source: /assets/files/kld_txt_two_clever_women_KarNC.pdf
+    origignal: false
+
+  - name: Сказка о медведе и лисе
+    description: NA
+    year: NA
+    source: /assets/files/Tale About Bear and Fox.pdf
+    origignal: false
