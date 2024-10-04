@@ -1,4 +1,9 @@
 papers:
+   - author: Anton Buzanov, Ilya Egorov, Vasily Molchanov
+    name: "Diphthongs and Kildin Saami Vowel System"
+    link: https://iling-ran.ru/library/ural-altaic/ua2023_51.pdf#page=7
+    other: "Ural-Altaic studies №4 (51). PP. 7-26"
+    
   - author: Daniil Burov, Ilya Egorov
     name: "Materials from Kildin Saami: A trickster tale and a personal narrative"
     link: https://rodyaz.ru/pdf/23-2/RY_232_7_Burov-Egorov.pdf
@@ -18,21 +23,6 @@ papers:
     name: "К описанию языковой ситуации в сообществе российских саамов"
     link: https://github.com/saamilang/online/blob/main/assets/files/kld_NC_K_opisaniju_dinamiki_2021.pdf
     other: "Проблемы языка. Сборник научных статей по материалам восьмой конференции-школы «Проблемы языка: взгляд молодых ученых» (25–27 марта 2021 г.) Москва: Институт языкознания РАН. 2021. СС. 279-307"
-    
-  - author: Anton Buzanov, Ilya Egorov, Vasily Molchanov
-    name: "Diphthongs and Kildin Saami Vowel System"
-    link: TBD
-    other: under review
-    
-  - author: Daniil Burov, Ilya Egorov
-    name: "Materials from Kildin Saami: a trickster tale and a memorate"
-    link: TBD
-    other: under review
-
-  - author: Ilya Egorov
-    name: "On the typology of voiceless sonorants: Kildin Saami data"
-    link: TBD
-    other: under review
     
 talks: 
   - author: Liza Goroshnikova, Nikita Chestnov
