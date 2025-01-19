@@ -25,6 +25,36 @@ papers:
     other: "Проблемы языка. Сборник научных статей по материалам восьмой конференции-школы «Проблемы языка: взгляд молодых ученых» (25–27 марта 2021 г.) Москва: Институт языкознания РАН. 2021. СС. 279-307"
     
 talks: 
+  - author: Maria Kosheleva
+    name: "The Kildin Saami evidential Perfect: the requirement of the existent result"
+    link: https://youngconfspb.com/ru-ru/xxi-konferenciya-2024-g
+    other: XXI конференция по типологии и грамматике для молодых исследователей, 21-23 ноября 2024 года
+    
+  - author: Maria Kosheleva, Pavel Astafiev
+    name: "Non-flip evidential questions in Kildin Saami"
+    link: https://sites.google.com/view/tmp2024/programme
+    other: Типология морфосинтаксических параметров, 17-18 октября 2024 года
+
+  - author: Vsevolod Potseluev, Maria Kosheleva
+    name: "Copula inversion in Kildin Saami"
+    link: https://www.slm.uni-hamburg.de/ifuu/forschung/tagungen/soul5/abstracts/potseluev-kosheleva-kildin-saami-copula-soul5.pdf
+    other: Syntax of Uralic Languages 5, 12-13 сентября 2024 года
+
+  - author: Vsevolod Potseluev
+    name: "Constituent negation in Kildin Saami: a case for concord in verbal domain"
+    link: https://www.slm.uni-hamburg.de/ifuu/forschung/tagungen/soul5/abstracts/potseluev-kildin-saami-negation-soul5.pdf
+    other: Syntax of Uralic Languages 5, 12-13 сентября 2024 года
+
+  - author: Vsevolod Potseluev
+    name: "Position of the Kildin Saami negation revised"
+    link: https://parissnag.com/conf/program/potseluev
+    other: SNAG 2024, 5-6 сентября 2024 года
+    
+  - author: Александр Мокеев, Антон Бузанов
+    name: "Диалектная вариативность в кильдинском саамском: лексические данные"
+    link: http://tipl.philol.msu.ru/application/files/9217/1282/3033/Buzanov_Mokeev.pdf
+    other: Малые языки в большой лингвистике, 12-13 апреля 2024 года
+    
   - author: Liza Goroshnikova, Nikita Chestnov
     name: "Kildin Sámi Teaching Practices in Lovozero, Murmansk Region"
     link: https://github.com/saamilang/online/blob/main/assets/files/kld_LG%2CNC_Kildin%20Sami%20Teaching_2023.pdf
